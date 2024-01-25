@@ -4,6 +4,7 @@
       <NuxtLink to="/">Logo</NuxtLink>
     </div>
     <nav>
+      <NuxtLink to="departments">Departments</NuxtLink>
       <NuxtLink to="employees">Employees</NuxtLink>
       <NuxtLink to="login">Log In</NuxtLink>
       <NuxtLink to="signup">Sign Up Page</NuxtLink>

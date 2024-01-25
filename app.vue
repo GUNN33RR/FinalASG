@@ -1,15 +1,13 @@
 <template>
-  <AppHeader />
-  <div class="main">
+  <div id="app">
+    <AppHeader />
     <NuxtPage />
   </div>
-  <AppFooter />
 </template>
+
 <style>
-body {
+body,
+.app {
   margin: 0;
-}
-.main {
-  height: 58vh;
 }
 </style>
