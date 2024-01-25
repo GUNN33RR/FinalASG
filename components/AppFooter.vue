@@ -8,7 +8,7 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 1rem;
 }
 </style> 

@@ -1,23 +1,19 @@
-<script setup>
-const user = useSupabaseUser();
-</script>
 <template>
   <header>
-    <nav>
-    <NuxtLink to="login">Log In</NuxtLink>
-      <NuxtLink to="signup">Sign Up</NuxtLink>
-    </nav>
-    <div class="buttons">
-      <p v-if="user">{{ user.email }}</p>
-      <Logout />
+    <div>
+      <NuxtLink to="/">Logo</NuxtLink>
     </div>
+    <nav>
+      <NuxtLink to="employees">Employees</NuxtLink>
+      <NuxtLink to="login">Log In</NuxtLink>
+      <NuxtLink to="signup">Sign Up Page</NuxtLink>
+    </nav>
   </header>
 </template>
 
 <style scoped>
 header {
   background-color: black;
-  color: white;
   display: flex;
   justify-content: space-between;
   padding: 1rem;
@@ -33,14 +29,14 @@ div {
   text-decoration: none;
 }
 a:hover {
-  color: silver;
+  color: red;
 }
 .buttons {
   display: flex;
   gap: 8px;
 }
 .link {
-  color: red;
+  color: blue;
   text-decoration: none;
   font-size: 1.5rem;
 }
