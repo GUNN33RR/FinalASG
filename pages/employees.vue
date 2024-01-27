@@ -10,7 +10,6 @@ const employees = data.value.employees;
     <header>
     <h1>Employees</h1>
   </header>
-    <!-- render the fetched data -->
   <div>
    <ul>
       <li v-for="employee in employees" :key="employee.EMPLOYEE_ID">

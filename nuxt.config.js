@@ -6,6 +6,6 @@ export default defineNuxtConfig({
     redirect: false,
   },
   router: {
-    base: '/', // Set the base path of your app
+    base: '/', 
   },
 });
