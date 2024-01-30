@@ -13,17 +13,17 @@ const user = useSupabaseUser();
 </script>
 <template>
   <main>
-    <h1>Login Page</h1>
-    <section>
+    <h1 class="centeralign">Login</h1>
+    <br><section class="centeralign">
       <label for="email">
-        email
+        Email
         <input type="email" v-model="email" />
       </label>
       <label for="password">
-        password
+        Password
         <input type="password" v-model="password" />
       </label>
-      <button @click="signIn">Sign In with E-Mail</button>
+      <br><br><br><button @click="signIn">Sign In with E-Mail</button>
     </section>
     <section>
       <h1>Active user information</h1>

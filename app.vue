@@ -11,4 +11,13 @@ body,
 .app {
   margin: 0;
 }
+
+.centeralign{
+  text-align: center;
+}
+
+label{
+  padding: 10px;
+}
+
 </style>

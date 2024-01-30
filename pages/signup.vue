@@ -18,9 +18,9 @@ async function signUp() {
 </script>
 
 <template>
-  <main>
+  <main class="centeralign">
     <h1>Sign Up</h1>
-    <form @submit.prevent="signUp">
+    <br><form @submit.prevent="signUp">
       <label for="email">
         Email:
         <input type="email" v-model="email" />
@@ -29,7 +29,7 @@ async function signUp() {
         Password:
         <input type="password" v-model="password" />
       </label>
-      <button @click="signUp">Sign Up</button>
+      <br><br><br><button @click="signUp">Sign Up</button>
     </form>
   </main>
 </template>

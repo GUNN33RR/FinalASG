@@ -1,12 +1,12 @@
 <template>
   <main>
-    <h1>Welcome!</h1>
+    <h1 class="centeralign">Welcome!</h1>
     <p>
       <a href="/login" class="button login-button">
         <button>Login</button>
       </a>
       <a href="/signup" class="button signup-button">
-        <button>Signup</button>
+        <button>Sign up</button>
       </a>
       <a href="/departments" class="button departments-button">
         <button>Departments</button>
@@ -32,7 +32,8 @@
 }
 
 .button button {
-  padding: 10px 200px;
+  width: 500px;
+  padding: 10px;
   color: white;
   background-color: black;
   border: none;

@@ -7,12 +7,12 @@ const departments = data.value.departments;
 <template>
   <main>
     <header>
-      <h1>Departments</h1>
+      <h1 class="centeralign">Departments</h1>
     </header>
     <div>
       <ul>
         <li v-for="department in departments" :key="department.DEPARTMENT_ID">
-        <h2>Department Name: {{department.DEPARTMENT_NAME}}</h2>
+        <h2>{{department.DEPARTMENT_NAME}}:</h2>
         <p>Department ID: {{ department.DEPARTMENT_ID }}</p>
         <p>Manager ID: {{ department.MANAGER_ID }}</p>
       </li>
@@ -21,3 +21,4 @@ const departments = data.value.departments;
   </main>
 
 </template>
+
