@@ -4,10 +4,8 @@ const supabase = useSupabaseClient();
 function logout() {
   try {
     const { error } = supabase.auth.signOut();
-    // throw an error if one happens
     if (error) throw error;
   } catch (error) {
-    // log the error
     console.error(error);
   }
 }
