@@ -1,13 +1,14 @@
 <template>
   <header>
     <div>
-      <NuxtLink to="/">Home</NuxtLink>
+      <NuxtLink to="/">Logout</NuxtLink>
     </div>
     <nav>
       <NuxtLink to="departments">Departments</NuxtLink>
       <NuxtLink to="employees">Employees</NuxtLink>
       <NuxtLink to="login">Log In</NuxtLink>
       <NuxtLink to="signup">Sign Up</NuxtLink>
+    
     </nav>
   </header>
 </template>
@@ -28,6 +29,8 @@ a,
 div {
   color: white;
   text-decoration: none;
+  justify-content: space-around;
+  gap: 2rem;
 }
 a:hover {
   color: red;
