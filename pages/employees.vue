@@ -1,5 +1,4 @@
 <script setup>
-// Fetch the data from a server route
 const { data } = await useFetch("/api/employees", {
   headers: useRequestHeaders(["cookie"]),
 });
